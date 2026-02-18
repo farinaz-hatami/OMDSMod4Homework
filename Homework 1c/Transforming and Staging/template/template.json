@@ -27,7 +27,7 @@
             "type": "string"
         },
         "location": {
-            "defaultValue": "westus",
+            "defaultValue": "eastus2",
             "type": "string"
         },
         "maxSizeBytes": {
