@@ -4,11 +4,11 @@
     "parameters": {
         "administratorLogin": {
             "type": "string",
-            "defaultValue": ""
+            "defaultValue": ""omdsmod4admin""
         },
         "administratorLoginPassword": {
             "type": "securestring",
-            "defaultValue": ""
+            "defaultValue": "omdsmod4password013!"
         },
         "administrators": {
             "type": "object",
@@ -16,25 +16,31 @@
         },
         "collation": {
             "type": "string"
+             "defaultValue": "SQL_Latin1_General_CP1_CI_AS"
         },
         "databaseName": {
             "type": "string"
+            "defaultValue": "omdsmod4db"
         },
         "tier": {
             "type": "string"
+            "defaultValue": "GeneralPurpose"
         },
         "skuName": {
             "type": "string"
+            "defaultValue": "GP_S_Gen5_1"
         },
         "location": {
-            "defaultValue": "[resourceGroup().location]",
+            "defaultValue": "westus",
             "type": "string"
         },
         "maxSizeBytes": {
             "type": "int"
+             "defaultValue": 1073741824
         },
         "serverName": {
             "type": "string"
+            "defaultValue": "omdsmod4server"
         },
         "sampleName": {
             "type": "string",
