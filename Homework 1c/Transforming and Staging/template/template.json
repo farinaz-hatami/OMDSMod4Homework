@@ -27,7 +27,7 @@
             "type": "string"
         },
         "location": {
-            "defaultValue": "eastus2",
+            "defaultValue": "centralus",
             "type": "string"
         },
         "maxSizeBytes": {
