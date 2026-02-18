@@ -27,7 +27,7 @@
             "type": "string"
         },
         "location": {
-            "defaultValue": "[resourceGroup().location]",
+            "defaultValue": "westus2",
             "type": "string"
         },
         "maxSizeBytes": {
