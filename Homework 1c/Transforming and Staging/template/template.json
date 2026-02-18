@@ -27,7 +27,7 @@
             "type": "string"
         },
         "location": {
-            "defaultValue": "eastus",
+            "defaultValue": "[resourceGroup().location]",
             "type": "string"
         },
         "maxSizeBytes": {
